@@ -4,7 +4,7 @@
         <div class="col" *ngFor="let product of products; let id = index">
             <a [routerLink]="[id]">
                 <div class="card">
-                    <img src="./assets/img/placeholder-image.png" class="card-img-top">
+                    <img src="{{ product.coverImage }}" class="card-img-top">
                     <div class="card-body">
                         <p class="card-text">{{ product.name }}<br>{{ product.description }}</p>
                     </div>

@@ -1,4 +1,5 @@
 export interface Product {
+    coverImage: string,
     id: number,
     name: string,
     description: string,
@@ -10,6 +11,7 @@ export interface Product {
 
 export const products = [
     {
+        coverImage: './assets/img/phone-cover.jpg',
         id: 0,
         name: 'iPhone',
         description: 'Apple Inc.',
@@ -19,6 +21,7 @@ export const products = [
         heading3: '性能真好！'
     },
     {
+        coverImage: './assets/img/phone-cover.jpg',
         id: 1,
         name: 'Xperia',
         description: 'From Sony.',
@@ -28,6 +31,7 @@ export const products = [
         heading3: '性能真好！'
     },
     {
+        coverImage: './assets/img/phone-cover.jpg',
         id: 2,
         name: 'Galaxy',
         description: 'From Samsung.',
@@ -37,6 +41,7 @@ export const products = [
         heading3: '性能真好！'
     },
     {
+        coverImage: './assets/img/phone-cover.jpg',
         id: 3,
         name: 'GooglePhone',
         description: 'From Google.',
